@@ -7,3 +7,5 @@ RUN /usr/local/openresty/luajit/bin/luarocks install lua-resty-http
 RUN /usr/local/openresty/luajit/bin/luarocks install luajwt
 RUN /usr/local/openresty/luajit/bin/luarocks install lua-cjson
 RUN /usr/local/openresty/luajit/bin/luarocks install lua-resty-cookie
+
+RUN mkdir /var/log/nginx
